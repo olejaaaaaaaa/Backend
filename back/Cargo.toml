@@ -1,0 +1,13 @@
+[package]
+name = "back"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix = "*"
+actix-web = "*"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "*"
+reqwest = "*"
+tokio = { version = "*",  features = ["full"] }
+warp = "*"
